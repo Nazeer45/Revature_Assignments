@@ -1,3 +1,6 @@
+/*Get two integer inputs from shell/console representing the number of rows and columns and create two dimensional arrays for the following scenarios(Get inputs from the shell/console for populating the array):
+   ii)2d-array with no duplicate values*/
+
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -31,5 +34,6 @@ public class NoDuplicate_2DArray {
             }
             System.out.println();
         }
+        scanner.close();
     }
 }

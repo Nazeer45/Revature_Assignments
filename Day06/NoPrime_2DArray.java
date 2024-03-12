@@ -1,3 +1,6 @@
+/*Get two integer inputs from shell/console representing the number of rows and columns and create two dimensional arrays for the following scenarios(Get inputs from the shell/console for populating the array):
+   i) 2d-array with no prime numbers*/
+
 import java.util.Scanner;
 
 public class NoPrime_2DArray {
@@ -7,6 +10,7 @@ public class NoPrime_2DArray {
         int rows = scanner.nextInt();
         System.out.print("Enter the number of columns: ");
         int cols = scanner.nextInt();
+        scanner.close();
         int[][] array = new int[rows][cols];
         System.out.println("Enter array elements (non-prime numbers):");
         for (int i = 0; i < rows; i++) {
