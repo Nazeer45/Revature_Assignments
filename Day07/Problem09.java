@@ -8,7 +8,7 @@
 
 */
 
-public class Probem09 {
+public class Problem09 {
     public static void main(String[] args) {
         int rows = 5;
 
